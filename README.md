@@ -51,9 +51,9 @@ Since the files acquire data from The Blue Alliance API, a TBA API key is requir
 
 A tba_key.json file template is provided in the repo.  You can paste your TBA API key into this file for easy, repeated access by the Python scripts.  Alternatively, the key can be optionally passed as an argument.
 
-python robustOpr.py eventKey [tbaAPIKey]
+```python robustOpr.py eventKey [tbaAPIKey]```
 
-python robustHybridOpr2020.py eventKey [tbaApiKey]
+```python robustHybridOpr2020.py eventKey [tbaApiKey]```
 
 Output is provided as robustOpr_*eventKey*.csv or robustHybridOpr2020_*eventKey*.csv.
 
